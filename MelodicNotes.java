@@ -29,7 +29,7 @@ public class MelodicNotes {
     private List<Album> albumLogs;
     private Scanner scanner;
 
-    public TuneJournalApp() {
+    public MelodicNotes() {
         albumLogs = new ArrayList<>();
         scanner = new Scanner(System.in);
     }
@@ -82,7 +82,7 @@ public class MelodicNotes {
     }
 
     public static void main(String[] args) {
-        TuneJournalApp app = new TuneJournalApp();
+        MelodicNotes app = new MelodicNotes();
         app.run();
     }
 }
